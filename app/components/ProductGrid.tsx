@@ -10,10 +10,11 @@ export default function ProductGrid({
 }: ProductGridProps) {
   return (
     <section className="product-grid" aria-label="Products">
-      {products.map((product) => (
+      {products.map((product, index) => (
         <ProductCard
           key={product.id}
           product={product}
+          priority={index === 0}
         />
       ))}
     </section>

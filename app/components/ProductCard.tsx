@@ -7,10 +7,12 @@ import { Product } from "../types/product";
 
 interface ProductCardProps {
   product: Product;
+  priority?: boolean;
 }
 
 export default function ProductCard({
   product,
+  priority = false,
 }: ProductCardProps) {
   const [isLiked, setIsLiked] = useState(false);
 
@@ -27,6 +29,7 @@ export default function ProductCard({
           width={400}
           height={400}
           className="product-image"
+          loading={priority ? "eager" : "lazy"}
         />
       </div>
 
