@@ -4,7 +4,7 @@ A responsive Product Listing Page (PLP) developed as part of the Appscrip fronte
 
 ## Live Demo
 
-🔗 Live Website: **[Add your deployed URL here]**
+🔗 Live Website:  [https://appscrip-plp-shantimol.netlify.app/]
 
 ## GitHub Repository
 
